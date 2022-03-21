@@ -1,0 +1,544 @@
+:root {
+    --color-primary: #917758;
+    --color-secundary: #3c2915;
+    --color-primary-light: #f5eee6;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+
+/******************
+*   HOME - BANNER
+*******************/
+
+
+.home{
+    background-size: cover;
+    background-image: url(../images/bg-home.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+
+}
+
+
+.home .header{
+    padding: 30px 0;
+}
+
+.home .header .nav{
+    display: flex;
+    justify-content: center;
+}
+
+.home .header .nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.home .header .nav ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+
+.home .header .nav ul li a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 20px;
+}
+
+
+.home .header .nav ul li a:hover {
+    border-bottom: 1px solid var(--color-primary);
+    color: var(--color-primary);
+}
+
+.home .header .nav ul li .logo{
+    margin: 0 30px;
+}
+
+
+/******************
+*   HOME - BANNER
+*******************/
+
+.home .banner{
+    color: white;
+    text-align: center;
+    position: absolute;
+    height: 231px;
+    left: 50%;
+    margin-left: -321px;
+    margin-top: -75px;
+    top: 50%;
+}
+
+
+.home .banner span{
+    display: block;
+}
+
+.home .banner .slogam1{
+    color: var(--color-primary);
+    letter-spacing: 5px;
+    font-size: 14px;
+}
+
+.home .banner h1{
+    font-size: 100px;
+}
+
+.home .banner .slogam2{
+    margin-bottom: 15px;
+    
+}
+
+/******************
+*   HOME - BANNER
+*******************/
+
+
+
+
+
+/************
+*   ABOUT
+*************/
+
+.about {
+    height: 127vh;
+    background-color:var(--color-primary);
+    
+}
+
+.about .container{
+    display: flex;
+}
+
+.about .timing{
+    width: 33%;
+    padding: 15px;
+    background-image: url(../images/brush-big.jpg);
+    height: 127vh;
+    position: relative;
+    top: -50px;
+}
+
+.about .timing .overlay{
+    background: rgba(0, 0, 0, 0.8);
+}
+
+
+.about .container .overlay{
+    text-align:center;
+    height: 122vh;
+    
+}
+
+.about .container .overlay .caixa-horarios{
+    color: var(--color-primary);
+    font-size: 30px;
+    border-bottom: 1px solid var(--color-primary)
+}
+
+.about .container .overlay .tesoura{
+    margin-top: 35px;
+    
+}
+
+.about .container .overlay .dias{
+    color: white;
+    margin-top: 10px;
+    font-weight: 380;
+    color: rgb(214, 214, 214);
+    
+}
+
+.about .container .overlay .hora {
+    color: white;
+    margin-bottom: 30px ;
+    font-weight: 500;
+}
+
+.about .container .overlay .ponto{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    
+}
+
+.about .container .overlay .ponto2{
+    width: 2px;
+    height: 60px;
+    background-color: white;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.about .container .overlay .img-local{
+    width: 35px;
+}
+
+.about .container .overlay .endereço{
+    color: white;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.about .container .overlay .img-telefone{
+    width: 45px;
+}
+
+.about .container .overlay .numero{
+    color: white;
+    padding-bottom: 40px;
+    font-weight: 500;
+}
+
+.about .text{
+    display: flex;
+}
+
+.about .experience{
+    color: white;
+    width: 66%;
+    margin-left: 7%;
+    margin-top: 100px;
+}
+
+.about .experience h2{
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.about .experience h2:after{
+    display: block;
+    content: '';
+    width: 100px;
+    height: 2px;
+    background-color: #a38f78;
+    margin: 20px 0;
+}
+
+.about .text p{
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+/************
+*   ABOUT
+*************/
+
+
+/**************
+*   SERVICES
+***************/
+
+.services{
+    background-color: var(--color-primary-light);
+    height: 147vh;
+}
+
+.services .titulo-servico h2{
+    font-weight: 500;
+    font-size: 45px;
+    color: var(--color-secundary);
+    margin-bottom: 10px;
+}
+
+.services .titulo-servico{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.services .service-box {  
+    text-align: center;
+    border: 3px solid var(--color-primary) ;
+    margin-top: 30px;
+    padding: 50px 15px;
+    margin: 30px;
+
+}  
+
+.services .boxes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+
+}
+
+.services .service-box p{
+    font-weight: 400;
+    margin-top: 35px;
+    line-height: 30px;
+    font-size: 14px;
+    
+}
+
+.services .service-box h4{
+    margin-top: 30px;
+    color: var(--color-secundary);
+}
+
+
+/**************
+*   SERVICES
+***************/
+
+
+
+
+
+/**************
+*   AGENDA
+***************/
+
+
+.appointment{
+    height: 100vh;
+    background-color: var(--color-primary);
+    padding-top: 90px;
+    background-image:url(../images/chair-ic.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 300px
+}
+
+
+.appointment h2{
+    color: var(--color-primary-light);
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.appointment img{
+    margin: 0 auto;
+    display: block;
+}
+
+.appointment form{
+   margin-top: 80px; 
+}
+
+.appointment .personal-data{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.appointment .input-wrapper{
+    display: block;
+    width: 100%;
+    margin-right: 50px;
+}
+
+.appointment .input-wrapper:last-of-type{
+    margin-right: 0;
+}
+
+.appointment label{
+    display: block;
+    color: var(--color-primary-light);
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.appointment .personal-data input,
+.appointment .personal-data select,
+.appointment textarea{
+    padding: 10px;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.appointment textarea{
+    height: 100px;
+}
+
+.appointment button{
+    background: var(--color-secundary);
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/**************
+*   AGENDA
+***************/
+
+
+
+/************
+*   FOTOS
+*************/
+
+.gallery{
+    background-color: var(--color-primary-light);
+    padding-top: 90px;
+    height: 148vh;
+}
+
+
+.gallery h2{
+    color: var(--color-secundary);
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.gallery img{
+    margin: 0 auto;
+    display: block;
+}
+
+.gallery .gallery-wrapper{
+    margin:50px auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 850px;
+    flex-wrap: wrap;
+    
+}
+
+.gallery .gallery-wrapper div{
+    border: 10px solid var(--color-primary);
+    margin: 6px;
+    width: 33%;
+}
+
+.gallery .gallery-wrapper div img{
+    width: 100%;
+}
+
+
+/************
+*   FOTOS
+*************/
+
+
+
+/***********
+*   MAPA
+************/
+
+.location{
+    padding: 100px 0;
+    background-image: url(../images/bg-location.jpg);
+    background-size: cover;
+}
+
+.location .head{
+    background-color: #191919;
+    padding: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.location .info{
+    display: flex;
+    align-items: center;
+}
+
+.location .info .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--color-primary);
+    border-radius: 100%;
+}
+
+
+.location .info .text span{
+    display: block;
+    font-size: 13px;
+}
+
+.location .info .text span:first-child{
+    color: silver;
+}
+
+.location .info .text span:last-child{
+    color: white;
+}
+
+.location .map{
+    width: 100%;
+}
+
+.location .map iframe{
+    width: 100%;
+}
+
+
+/***********
+*   MAPA
+************/
+
+
+/************
+*   FOOTER
+*************/
+.footer{
+    background-color: #191919;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
